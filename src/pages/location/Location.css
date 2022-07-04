@@ -1,0 +1,56 @@
+.single-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.places {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 24px 24px;
+    width: 316px;
+    box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.places-image {
+    width: 268px;
+    height: 140px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.lil-foo {
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .lil-foo {
+        display: flex;
+    }
+
+    .single-location-mobile {
+        display: none;
+    }
+
+    .places {
+        display: none;
+    }
+
+    .single-location-web {
+        display: flex;
+        padding: 0 30px;
+    }
+
+    .plaatsen-web {
+        margin: 20px 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #33312F;
+        padding: 24px 24px;
+        width: 316px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+}

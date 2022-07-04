@@ -1,0 +1,77 @@
+.header {
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .header {
+        display: flex;
+        margin: 0;
+        padding: 160px 60px 0 60px;
+        background: url("../../assets/gifs/Foto_Houten.jpg")  no-repeat top center fixed;
+        background-size: cover;
+        width: 100%;
+        max-height: 750px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-map {
+        display: flex;
+        max-height: 780px;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        color: #FFF;
+        -webkit-text-stroke: 1px black;
+        font-size: 4rem;
+        font-weight: 400;
+        padding: 0 120px;
+        text-align: center;
+    }
+
+    .Domtoren {
+        width: 260px;
+        height: 350px;
+        max-width: 260px;
+        max-height: 350px;
+        margin-right: 40px;
+        border: 3px solid #fff;
+        box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media only screen and (min-width: 850px) {
+
+    .title {
+        font-size: 5.5rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .Domtoren {
+        width: 300px;
+        height: 420px;
+        max-width: 300px;
+        max-height: 420px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .header {
+        height: 780px;
+    }
+
+    .Domtoren {
+        width: 300px;
+        max-width: 300px;
+        height: 495px;
+        max-height: 495px;
+        margin-right: 140px;
+    }
+}

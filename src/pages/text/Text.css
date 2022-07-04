@@ -1,0 +1,141 @@
+#rocket-button-text {
+    vertical-align: bottom;
+    font-size: 34px;
+}
+
+#rocket-button-text > * {
+    fill:#30626f;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #a8c787;
+    margin-left: 20px;
+    border-radius: 0 5px 0 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+.alinea-text {
+    border-radius: 5px 5px 0 0;
+    background-color: #839a64;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 2.8em;
+}
+
+.alinea {
+    font-size: 1em;
+    text-align: left;
+    font-weight: 300;
+}
+
+.text-link a {
+    color: #30626f;
+    font-weight: 600;
+}
+
+.text-link a:hover {
+    color: #cee8ce;
+}
+
+#drie {
+    margin-left: 100px;
+
+}
+
+.arrow {
+    font-size: 30px;
+}
+
+.arrow > * {
+    fill: #30626f;
+    vertical-align: middle;
+
+}
+
+.text-h2 {
+    font-size: 2em;
+    font-variant: all-small-caps;
+    color: #cee8ce;
+    margin: 0 3.2em;
+    padding-bottom: 10px;
+
+}
+
+@media only screen and (min-width: 767px) {
+
+    .text-h2 {
+        font-size: 1.4em;
+        margin-bottom: 100px;
+    }
+
+    .logged-in-web {
+    }
+
+
+
+    .slider-text {
+        min-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .text-h2 {
+        font-size: 1.6em;
+    }
+
+    .slider-text {
+        min-width: 650px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .text {
+        margin-left: 40px;
+    }
+
+    .text-h2 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .text {
+    }
+
+    .text-h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .text-h2 {
+        font-size: 2.5em;
+    }
+
+    .alinea {
+        font-size: 1.6em;
+    }
+
+    #drie {
+        font-size: 1.6em;
+    }
+
+    .slider-text {
+        min-width: 800px;
+    }
+}
+
+

@@ -1,0 +1,118 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    text-align: center;
+    padding-top: 0;
+    height: auto;
+}
+
+.map-home {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web-home {
+    display: none;
+}
+
+.home-wrapper {
+    text-align: center;
+    display: flex;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.pop-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 14px;
+    margin-top: 12px;
+}
+
+.welkom {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 40px;
+    align-items: stretch;
+    background-color: #a8c787;
+    padding: 60px 20px;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 100%;
+    justify-content: stretch;
+
+}
+
+.welkom-text {
+    font-size: 30px;
+}
+
+.intro {
+    margin-top: 16px;
+    font-size: 1.2rem;
+}
+
+.intro-2 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+}
+
+.intro-3 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+}
+
+    .web-home {
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: stretch;
+        align-items: stretch;
+        margin-left: 1em;
+
+    }
+
+    .web-left {
+        color: #efecec;
+        width: auto;
+        border-radius: 5px 5px 0 0;
+        display: flex;
+        padding-top: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color:  #00968c;
+        box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .map-web-left {
+        border-radius: 32px 0 0 0;
+    }
+
+    .image-web-home {
+        margin-bottom: 0;
+        min-width: 400px;
+        height: 500px;
+    }
+
+
+
+    .web-left {
+        min-width: 500px;
+    }
+
+
+    .map-image {
+        width: 80%;
+    }

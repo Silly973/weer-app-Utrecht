@@ -1,0 +1,44 @@
+.Signup-container{
+    color: black;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+label{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 6px;
+    width: 250px;
+    height: 20px;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-button{
+    background-color:#a8c787;
+    color: white;
+    border-color: #949494;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color:#00968c;
+
+}

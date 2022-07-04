@@ -1,0 +1,34 @@
+.little-footer {
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .little-footer {
+        padding: 8px 12px 0 12px;
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #181D17;
+        width: 100%;
+    }
+}
+
+.icon-bar {
+    font-size: 34px;
+    background-color: #40463F;
+    fill: #cee8ce;
+}
+
+.icon {
+    font-size: 34px;
+    background-color: #181D17;
+    fill: #cee8ce;
+}
+
+.icon > * {
+    fill: #cee8ce;
+    background-color: #181D17;
+}
+

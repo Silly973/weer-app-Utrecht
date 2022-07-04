@@ -1,0 +1,89 @@
+
+input [type="checkbox1"] {
+    background-color: blue;
+
+}
+
+
+.map {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px 32px;
+    margin: 4px 2px;
+
+}
+
+
+
+.buttons{
+    display: flex;
+
+}
+
+
+
+#Map-button1{
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #afacac 50%, #88c1d5 50%);
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+#Map-button2 {
+    cursor: pointer;
+    background-color: #eace86;
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+
+}
+#Map-button3{
+    cursor: pointer;
+    background-color:  #b386d9;
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#Map-button4 {
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #bce1bc 50%, #efb7b7 50%);
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#Map-button5 {
+    cursor: pointer;
+    background: linear-gradient(to bottom right,  #ceffce 50%, #efb7b7 50%);
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+#Map-button6 {
+    cursor: pointer;
+    background-color: #efb7b7;
+    color: #33312F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
