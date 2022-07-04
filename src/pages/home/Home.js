@@ -29,7 +29,7 @@ function Home() {
                         <h3 className="welkom-text">Welkom!</h3>
                         <div className="intro">Wil jij in jouw eigen regio in Utrecht lekker gaan wandelen, fietsen of iets anders gaan doen? Nu kun jij het beste weer in jouw regio bekijken!</div>
                         <br/><div className="intro-2"> Je kiest een regio en dan krijg je jouw top 5 van beste weer in die regio Utrecht. Weet je niet wat je precies wilt gaan doen? Klik dan op de locatie. Hier kun je zien wat er allemaal te doen is in de buurt.</div>
-                        <br/> <div className="intro-3">Log <Link to='./Login'>hier</Link>  in of maak snel een <Link to='./Signup'className="Underline">account</Link> aan!
+                        <br/> <div className="intro-3">Log snel in of maak nu meteen een <Link to='./Signup'className="Underline">account</Link> aan!
                     </div>
 
 

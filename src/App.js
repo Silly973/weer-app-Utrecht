@@ -7,7 +7,7 @@ import Login from "./pages/login/Login";
 import {AuthContextProvider} from "./Context/AuthContext";
 import privateRoute from "./components/protectedroute/ProtectedRoute";
 import Header from "./components/header/Header";
-import Account from "./pages/Account";
+import Account from "./pages/account/Account";
 import Signup from "./pages/signup/Signup";
 import Footer from "./components/footer/Footer";
 import axios from "axios";
