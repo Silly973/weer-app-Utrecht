@@ -5,13 +5,14 @@
 @media only screen and (min-width: 767px) {
 
     .little-footer {
-        padding: 8px 12px 0 12px;
+
+        margin-right: 13px;
         display: flex;
         height: 60px;
         align-items: center;
         justify-content: space-between;
-        background-color: #181D17;
-        width: 100%;
+
+        width: 102%;
     }
 }
 
@@ -19,16 +20,32 @@
     font-size: 34px;
     background-color: #40463F;
     fill: #cee8ce;
+
 }
 
 .icon {
     font-size: 34px;
-    background-color: #181D17;
+
+
     fill: #cee8ce;
+    margin-left: 30px;
 }
 
 .icon > * {
-    fill: #cee8ce;
-    background-color: #181D17;
+    fill: #30626f;
+
 }
 
+#home-button {
+    align-self: center;
+    margin-left: 20px;
+
+}
+#arrow-button {
+    margin-left: 50px;
+}
+
+#rocket-button {
+    margin-right: 50px;
+
+}

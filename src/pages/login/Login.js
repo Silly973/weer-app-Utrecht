@@ -32,7 +32,7 @@ const Signin = () => {
             <div>
                 <h2 >Log hier in</h2>
                 <p > Nog geen account?{' '}
-                    <Link to='/signup' >
+                    <Link to="/signup" >
                         Klik hier!
                     </Link>
                 </p>

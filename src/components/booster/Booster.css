@@ -1,8 +1,9 @@
 .booster {
     display: flex;
-    min-width: 100%;
+    min-width: 101%;
     justify-content: space-between;
     margin-top: 40px;
+    margin-left: -7px;
     position: fixed;
     bottom: 60px;
 }

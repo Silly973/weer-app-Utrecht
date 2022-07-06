@@ -21,6 +21,7 @@ function LittleFooter() {
     return <>
 
         <div className="little-footer">
+
             <p className="icon" id="arrow-button" onClick={()=> navigate(-1)}><RiArrowGoBackFill/></p>
             <Link to="/">
                 <p className="icon" id="home-button" onClick={goBackHandler}><RiHome2Line/></p>
@@ -29,6 +30,7 @@ function LittleFooter() {
                 <p className="icon" id="rocket-button" onClick={goBackHandler}><RiRocketLine/></p>
             </Link>
         </div>
+
     </>
 }
 

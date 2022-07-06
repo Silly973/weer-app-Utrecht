@@ -9,10 +9,10 @@ import LocationContextProvider from "./Context/LocationContext";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <Router>
-    {/*<AuthContextprovider>*/}
+
         <LocationContextProvider>
     <App/> ;
         </LocationContextProvider>
-    {/*}  </AuthContextprovider> */}
+
 </Router>
 );

@@ -15,9 +15,9 @@ const Signup = () => {
         setError('');
         try {
             await createUser(email, password);
-            navigate('/account')
+            navigate("/account")
         } catch (e) {
-            setError('Failed to create account')
+            setError("Account aanmaken is niet gelukt")
             setError(e.message);
             console.log(e.message);
         }
@@ -28,13 +28,13 @@ const Signup = () => {
             <div>
                 <h2>Account aanmaken</h2>
                 <p> Heb je al een account?{' '}
-                    <Link to='/Login' >
+                    <Link to="/Login" >
                         Klik hier!
                     </Link>
                 </p>
             </div>
             <form onSubmit={handleSubmit}>
-                <div className='flex flex-col py-2'>
+                <div>
                     <label>Email: </label>
                     <input
                         onChange={(e) => setEmail(e.target.value)}
@@ -43,7 +43,7 @@ const Signup = () => {
                         id="email"
                     />
                 </div>
-                <div className='flex flex-col py-2'>
+                <div>
                     <label>Wachtwoord:</label>
                     <input
                         onChange={(e) => setPassword(e.target.value)}
@@ -52,7 +52,7 @@ const Signup = () => {
                         id="password"
                     />
                 </div>
-                {error && <p className="error">Dit account bestaat al. Probeer een ander email adres.</p>}
+                {error && <p className="error">Registeren is niet gelukt Probeer een ander email adres en/of wachtwoord. (wachtwoord moet 6 cijfers en/of letters bevatten!)</p>}
                 <button disabled={currentUser}
                     className="submit-button">
                     Registreer

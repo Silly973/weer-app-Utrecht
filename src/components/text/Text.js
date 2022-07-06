@@ -1,15 +1,14 @@
 import React, {useState} from 'react';
 import {RiRocketLine, RiArrowRightSFill} from "react-icons/ri";
 import './Text.css';
-//import {useAuth} from "../../context/AuthContext";
-import {Link} from 'react-router-dom';
+import {UserAuth} from "../../Context/AuthContext";
 
-//import Switch from "../switch/Switch";
+
+
 
 
 function Text() {
-    const [gifs, toggleGifs] = useState(false)
-    //const {currentUser} = useAuth()
+   const {currentUser} = UserAuth()
 
     return <div className="text">
 
@@ -20,9 +19,9 @@ function Text() {
                   <p id="een" className="alinea"></p>
               </div>
 
-                <p id="twee" className="alinea"><span className="arrow"><RiArrowRightSFill/> </span>Je ziet hiernaast de top 5 locaties van de door jouw gekozen regio</p>
-                 <p id="drie" className="alinea">of</p>
-                <p id="vier" className="alinea"><span className="arrow"><RiArrowRightSFill/> </span>Klik op
+                <p id="een" className="alinea"><span className="arrow"><RiArrowRightSFill/> </span>Je ziet hiernaast de top 5 locaties van de door jouw gekozen regio</p>
+                <p id="twee" className="alinea">of</p>
+                <p id="drie" className="alinea"><span className="arrow"><RiArrowRightSFill/> </span>Klik op
                     de <RiRocketLine id="rocket-button-text"/> voor de Top 5 locaties in heel Utrecht </p>
 
                 <p id="vier" className="alinea"><span className="arrow"><RiArrowRightSFill/> </span>Kies voor een weer booster</p>

@@ -1,10 +1,8 @@
-import React, {useContext} from 'react';
-import {LocationContext} from "../../Context/LocationContext";
+import React from 'react';
+//import {LocationContext} from "../../Context/LocationContext";
 import {useParams} from 'react-router-dom';
-import Counter from "../../components/counter/Counter";
 import LittleFooter from "../../components/littleFooter/LittleFooter";
-import Text from "../text/Text";
-import {RiHeartLine} from "react-icons/ri";
+import Text from "../../components/text/Text";
 import placesData from "../../PlacesData/places.json";
 import './Location.css';
 
@@ -14,23 +12,24 @@ function Location() {
 
     const {slug} = useParams()
 
-    const {
-        locationsUtrechtWestStad,
-        locationsLekstroom,
-        locationsUtrechtZuidOost,
-        locationsEemlandVallei
-    } = useContext(LocationContext)
+ //   const {
+ //      locationsUtrechtWestStad,
+ //       locationsLekstroom,
+ //       locationsUtrechtZuidOost,
+ //       locationsEemlandVallei
+  //  } = useContext(LocationContext)
 
-    const UtrechtLocations = [locationsUtrechtWestStad]
-        .concat(locationsLekstroom)
-        .concat(locationsUtrechtZuidOost)
-        .concat(locationsEemlandVallei)
+  //  const UtrechtLocations = [locationsUtrechtWestStad]
+  //      .concat(locationsLekstroom)
+  //      .concat(locationsUtrechtZuidOost)
+  //      .concat(locationsEemlandVallei)
 
 
-    const specificLocation = UtrechtLocations.find((location, index) => {
-        return location === slug
+   // const specificLocation = UtrechtLocations.find((location, index) => {
+     //   return location === slug
 
-    })
+
+  //  })
 
     const specificPlace = placesData.find((place) => {
         return place.id === slug
@@ -39,23 +38,14 @@ function Location() {
     })
 
     return <div className="single-location">
-        <div className="single-location-mobile">
-            <Counter
-                index={<RiHeartLine/>}
-                key={specificLocation && specificLocation.locationID}
-                location={specificLocation && specificLocation}
-                clouds={specificLocation && specificLocation.locationClouds}
-                wind={specificLocation && specificLocation.locationWind}
-                temp={specificLocation && specificLocation.locationTemp}
-            />
-
-        </div>
 
         <div className="web-home">
             <div className="web-left">
                 <div className="single-location-web">
 
-
+                    <p>Dit is er te doen in:
+                       <h2> {specificPlace && specificPlace.location}</h2>
+                    </p>
 
 
                 </div>

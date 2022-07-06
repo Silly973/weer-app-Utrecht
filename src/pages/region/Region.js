@@ -4,7 +4,7 @@ import './Region.css';
 import {NavLink} from 'react-router-dom';
 import LittleFooter from "../../components/littleFooter/LittleFooter";
 import Booster from "../../components/booster/Booster";
-import Text from "../text/Text";
+import Text from "../../components/text/Text";
 
 
 function Region({locationsRegion, regionName}) {

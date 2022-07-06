@@ -11,7 +11,7 @@ const Account = () => {
     const handleLogout = async () => {
         try {
             await logout();
-            navigate('/');
+            navigate("/");
             console.log('You are logged out')
         } catch (e) {
             console.log(e.message);
@@ -21,7 +21,8 @@ const Account = () => {
     return (
         <div className="Account-container">
             <h2>Account</h2>
-            <p>Email gebruiker: {user && user.email}</p>
+            <p>Email van gebruiker:
+                {user && user.email}</p>
             <p>Klik op de knop "ga verder" om jouw regio te kiezen.</p>
 
             <button onClick={handleLogout} className="button">

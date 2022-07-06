@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 10px;
+    margin-top:  10px;
 
 }
 
@@ -32,6 +33,9 @@
 
 .booster-bar {
     width: 100%;
+    align-items: center;
+    justify-content: left;
+
 }
 
 a:link {
@@ -69,6 +73,8 @@ a:link {
         border-radius: 5px 5px;
         justify-content: flex-end;
         margin-bottom: auto;
+        padding-left: 10px;
+        margin-top: 2px;
     }
 
     .footer-region {
