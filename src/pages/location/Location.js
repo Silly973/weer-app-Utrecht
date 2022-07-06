@@ -6,7 +6,6 @@ import Text from "../../components/text/Text";
 import placesData from "../../PlacesData/places.json";
 import './Location.css';
 
-
 function Location() {
 
 
@@ -24,10 +23,8 @@ function Location() {
   //      .concat(locationsUtrechtZuidOost)
   //      .concat(locationsEemlandVallei)
 
-
    // const specificLocation = UtrechtLocations.find((location, index) => {
      //   return location === slug
-
 
   //  })
 

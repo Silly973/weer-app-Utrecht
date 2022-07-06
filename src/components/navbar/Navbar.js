@@ -4,7 +4,6 @@ import {UserAuth} from "../../Context/AuthContext";
 import "./Navbar.css"
 
 
-
 const Navbar = () => {
     const { user, logout } = UserAuth();
     const navigate = useNavigate();
