@@ -19,8 +19,6 @@ function Home() {
                         <br/><div className="intro-2"> Je kiest een regio en dan krijg je jouw top 5 van beste weer in die regio Utrecht. Weet je niet wat je precies wilt gaan doen? Klik dan op de locatie. Hier kun je zien wat er allemaal te doen is in de buurt.</div>
                         <br/> <div className="intro-3">Log snel in of registreer je nu meteen <Link to='./Signup'className="Underline">hier</Link>!
                     </div>
-
-
                     </div>
 
                     <div className="map-home">

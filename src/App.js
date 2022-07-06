@@ -34,8 +34,6 @@ function App() {
           <div className="page-container">
               <div className="content-wrap">
 
-
-
                   <AuthContextProvider>
                       <div className="weather-container">
                       <Navbar />
@@ -67,15 +65,9 @@ function App() {
             <Route path="/Signup" element={<Signup/>} />
           </Routes>
                               </div>
-
-
-
-
                           </div>
                       </div>
                   </AuthContextProvider>
-
-
 
               </div>
           </div>
